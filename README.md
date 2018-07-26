@@ -56,7 +56,7 @@ public class AppContext extends Application{
         .with(this)
         .load(ASSETS_IMAGE)
         .override(800, 800)
-		.build()
+	    .build()
         .into((ImageView) findViewById(R.id.image_view));
 ```
 
@@ -67,7 +67,7 @@ public class AppContext extends Application{
         .with(this)
         .load(R.drawable.ic_launcher_background)
         .override(800, 800)
-		.build()
+	    .build()
         .into((ImageView) findViewById(R.id.image_view));
 ```
 
@@ -79,7 +79,7 @@ public class AppContext extends Application{
         .with(this)
         .load(IMAGE_URI)
         .override(800, 800)
-		.build()
+	    .build()
         .into((ImageView) findViewById(R.id.image_view));
 ```
 
